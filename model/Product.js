@@ -15,7 +15,10 @@ const Product = Sequelize.define('Product', {
       type: DataTypes.STRING,
       allowNull: false
     },
-
+    image: {
+      type: DataTypes.STRING,
+      
+    },
     price: {
       type: DataTypes.DOUBLE,
       allowNull: false
